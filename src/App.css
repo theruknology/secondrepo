@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #a1ffa4; /* Green accent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #a1ffa4; /* Green accent for the heading */
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.cards-container span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.xx-card {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212; /* Text matches the dark bg for high contrast */
+  background-color: #a1ffa4; /* Green accent for the card bg */
+  border: none;
+  border-bottom: 4px solid #00ff00; /* Slightly darker green for the border */
+  border-radius: 4px;
+}
+
+.xx-card:hover {
+  border-bottom: 4px solid #44a844; /* Even darker green on hover */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 300px;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Subtle shadow for dark theme */
+}

@@ -22,9 +22,6 @@ function App() {
             <Card />
           </div>
           <span>,</span>
-          <div className="xx-card">
-            <Card />
-          </div>
 
           <div className="xx-card">
             <Card />

@@ -12,6 +12,14 @@ function App() {
       <header className="App-header">
         <h1 className="main-heading">Format:</h1>
         <div className="cards-container">
+          
+
+          {/*
+          You sure you don't wanna uncomment this?
+*/}
+          {/*
+          GDG{"{"}
+*/}
           <div className="xx-card">
             <Card />
           </div> <span>-</span>
@@ -32,6 +40,7 @@ function App() {
           <div className="xx-card">
             <Card />
           </div>
+          {"}"}
         </div>
         {/* 
         
